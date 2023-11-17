@@ -48,7 +48,7 @@ matplotlib = "*"
 holoviews = "*"
 seaborn = "*"
 mat73 = "*"
-ascent = { path = "./ASCENT/", develop = true }
+ascent = { git = "https://github.com/creatis-myriad/ASCENT.git", rev = "204d50a", develop = true }
 
 [tool.poetry.group.dev.dependencies]
 pre-commit = "^2.20.0"
