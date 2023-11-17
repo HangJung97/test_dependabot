@@ -17,6 +17,8 @@ updates:
       - dependency-name: "torchmetrics"
         update-types: ["version-update:semver-patch"]
   - package-ecosystem: "gitsubmodule"
-    directory: "/ASCENT"
+    directory: "/"
     schedule:
       interval: "monthly"
+    allow:
+      - dependency-type: "production"
