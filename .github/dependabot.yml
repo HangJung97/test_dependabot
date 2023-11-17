@@ -12,7 +12,7 @@ updates:
     allow:
       - dependency-type: "production"
     ignore:
-      - dependency-name: "ascent"
+      - dependency-name: "ASCENT/"
       - dependency-name: "pytorch-lightning"
         update-types: ["version-update:semver-patch"]
       - dependency-name: "torchmetrics"
