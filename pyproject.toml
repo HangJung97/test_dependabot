@@ -15,6 +15,9 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
 ]
+packages = [
+    { include = "ASCENT" },
+]
 
 [tool.poetry.dependencies]
 python = "~3.10"
